@@ -1,5 +1,6 @@
 Live-IL: M3U Playlist for Israeli TV Channels and Radio Stations
 ---------------------------------------------------
+**This updated unified tv & radio project still in its early days so more changes will come (including playlist addresses) and there might be few issues. The updated project publish in its current state in order to recieve responses and suggestions.**
 
 ###About
 This playlist was constructed for Kodi's IPTVSimple PVR addon, but will might work in your favorite player.  
@@ -10,14 +11,12 @@ Logos for the stations available [logos-il](https://github.com/kodi-il/logos-il)
 * All the links in the playlist are official streams from the official channels' sites or mobile apps.
 * There are no un-official streams, streams that are not offered freely and violate copyrights or links that evading geo-restriction of official streams
 * The playlist might include some foreign channels streams, the premise behind the inclusion of such streams is that if the stream isn't geo-restricted then it's allowed to play it outside its country of origin and also to link it in this playlist.
-<!--- * The EPG (electronic program guide) is composed from different web pages and the EPG of the DVB-S/S2 Yes service on Amos 2/3 4W which is publicly available and un-encrypted (don't like it then encrypt it). -->
 
 ###Installation instructions
 
 * Go to IPTVSimple configuration.
 * Enter the m3u link, for example: http://live.xbmc-il.com
 * Enter the logos base link: http://logos.xbmc-il.com
-<!--- * Enter the XMLTV EPG link: http://epg.xbmc-il.com -->
 * Save the changes, enable the addon and enable XBMC's PVR function.
 
 #####Instructions for other players than Kodi
@@ -40,12 +39,12 @@ These are live updating links to the playlists.
 
 ###Known issues and limitations
 
-* When more than one pvr clients are enabled, Kodi might not show channels from a client that its initialization is cosiderably longer due to a [bug in Kodi](http://trac.kodi.tv/ticket/14498), for example when using both IPTVSimple and Tvheadend.
+* When more than one pvr clients are enabled, Kodi might not show channels from a client that its initialization is cosiderably longer due to a [bug in Kodi](http://trac.xbmc.org/ticket/14498), for example when using both IPTVSimple and Tvheadend.
 * Most of the streams are HLS (m3u8) which supported well only by player that use FFmpeg to play HLS streams, other might not work at all.
 * Most of the Israeli TV channels are geo-restricted, meaning in order to play the streams one need to have an Israeli IP address.
 
 ###Contact
-You are free to contact by opening an issue or if the nature of your query is private then you're welcome to mail kodi.il.com@gmail.com
+You are free to contact by opening an issue or if the nature of your query is private then you're welcome to mail xbmc.il.com@gmail.com
 
 ####Read this before trying to contact:
 * **Do not ask for un-official streams, streams that are not offered freely and violate copyrights or links that are evading geo-restriction of official streams!**
