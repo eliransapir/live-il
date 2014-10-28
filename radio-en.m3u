@@ -1,21 +1,22 @@
 #EXTM3U
-# live updating link to the m3u @ http://xbmc-il.com/radio-il.en.m3u
-# if one of more of these are outdated please report @ https://github.com/xbmc-il/radio-il
+# live updating link to the m3u playlist at http://radio.xbmc-il.com/en
+# if one of more of these are outdated please report @ https://github.com/kodi-il/live-il
 
 #EXTINF:-1 group-title="Radio-IL" radio="true" tvg-id="radio-88fm" tvg-name="radio-88fm" tvg-logo="radio-88fm.png", 88fm
-mms://s4bwm.castup.net/990310006-52.wmv?ct=IL&rg=IL&aid=31&ts=0
+http://sbefl.castup.net:1935/990310138-123.flv/_definst_/playlist.m3u8
 
 #EXTINF:-1 tvg-id="radio-90fm-emtzah_haderech" tvg-name="radio-90fm-emtzah_haderech" tvg-logo="radio-90fm-emtzah_haderech.png", 90fm Ninety Radio
-rtmp://fms02.mediacast.co.il/106-live playpath=radio90 swfUrl=http://radio.mediacast.co.il/players/fp325/flowplayer.rtmp-3.2.3.swf
+http://90fm.mediacast.co.il:8920
 
 #EXTINF:-1 tvg-id="radio-91fm-lev_hamedina" tvg-name="radio-91fm-lev_hamedina" tvg-logo="radio-91fm-lev_hamedina.png", 91fm Lev Ha'medina
 http://213.8.143.168/91fmAudio
 
 #EXTINF:-1 tvg-id="radio-95.8fm-darom" tvg-name="radio-95.8fm-darom" tvg-logo="radio-95.8fm-darom.png", 95.8fm Radio Darom
 http://live.radiodarom.co.il:1935/livestream/darom2/manifest.m3u8
+# also playlist.m3u8
 
 #EXTINF:-1 tvg-id="radio-96fm-kol_rega" tvg-name="radio-96fm-kol_rega" tvg-logo="radio-96fm-kol_rega.png", 96fm Kol Rega Radio
-rtmp://radio.96fm.co.il/kolrega playpath=audio swfUrl=http://live1.co.il/kolrega/player/players/flowplayer.rtmp-3.2.3.swf
+http://radio.96fm.co.il/96fm
 
 #EXTINF:-1 tvg-id="radio-100fm-radius" tvg-name="radio-100fm-radius" tvg-logo="radio-100fm-radius.png", 100fm Radius
 http://213.8.143.168:80/100fmAudio
@@ -36,7 +37,8 @@ rtmp://IL29.cast-tv.com:1935/23744_LIVE_Live_102FM/23744_LIVE_Live_102FM
 rtmp://fms3.mediacast.co.il/liveradio playpath=102.stream swfUrl=http://radio.mediacast.co.il/players/fp325/flowplayer-3.2.5.swf?0.2779204686896638 pageUrl=http://face.mediacast.co.il/102fm/audio/
 
 #EXTINF:-1 tvg-id="radio-103fm" tvg-name="radio-103fm" tvg-logo="radio-103fm.png", 103fm Non-Stop Radio
-http://62.90.90.37/103fm_LiveRadioRepeat/_definst_/smil:LiveRadio.smil/manifest.m3u8
+http://103fm-s.nsacdn.com/103fm_LiveRadioRepeat/_definst_/smil:LiveRadio.smil/manifest.m3u8
+#http://103fm-s.nsacdn.com/103fm_LiveRadioRepeat/_definst_/LiveRadio.stream/manifest.m3u8
 
 #EXTINF:-1 tvg-id="radio-106fm-kol_hacampus" tvg-name="radio-106fm-kol_hacampus" tvg-logo="radio-106fm-kol_hacampus.png", 106fm Kol Ha'Campus
 http://212.29.254.129:7075
@@ -48,7 +50,8 @@ http://live.radiodarom.co.il:1935/livegaleyisrael/galiaud1/manifest.m3u8
 rtmp://cdn10.mediacast.co.il/liveradio playpath=1075.stream swfUrl=http://radio.mediacast.co.il/players/fp325/flowplayer-3.2.5.swf?0.2634390456622808 pageUrl=http://face.mediacast.co.il/1075fm/audio/
 
 #EXTINF:-1 tvg-id="radio-99fm-eco" tvg-name="radio-99fm-eco" tvg-logo="radio-99fm-eco.png", eco99fm
-http://82.80.192.2/103fm_Live99Repeat/_definst_/smil:Live99.smil/manifest.m3u8
+http://103fm-s.nsacdn.com/103fm_Live99Repeat/_definst_/smil:Live99.smil/manifest.m3u8
+#http://103fm-s.nsacdn.com/103fm_Live99Repeat/_definst_/Live99.stream/manifest.m3u8
 
 #EXTINF:-1 tvg-id="radio-81.9fm-galgalatz" tvg-name="radio-81.9fm-galgalatz" tvg-logo="radio-81.9fm-galgalatz.png", Galgalatz
 http://test.live.net.il/glgltz-a-zixief.m3u8
@@ -60,19 +63,22 @@ http://test.live.net.il/glz-a-zixief.m3u8
 mms://media.a7.org/a7live
 
 #EXTINF:-1 tvg-id="radio-97.2fm-kol_hamuzika" tvg-name="radio-97.2fm-kol_hamuzika" tvg-logo="radio-97.2fm-kol_hamuzika.png", Kol Hamuzika
-mms://s3ewm.castup.net/990310008-52.wmv
+http://s4ifl.castup.net:1935/990310139-123.flv/_definst_/playlist.m3u8
 
-#EXTINF:-1 tvg-id="radio-95fm-reshset_beit" tvg-name="radio-95fm-reshset_beit" tvg-logo="radio-95fm-reshset_beit.png", Reshet Beit
-mms://s4awm.castup.net/990310001-52.wmv
+#EXTINF:-1 tvg-id="radio-107.7fm-reshet_aleph" tvg-name="radio-107.7fm-reshet_aleph" tvg-logo="radio-107.7fm-reshet_aleph.png", Reshet Aleph
+http://s4ifl.castup.net/990310132-123.flv/_definst_/playlist.m3u8
 
-#EXTINF:-1 tvg-id="radio-89.7fm-reshset_gimel" tvg-name="radio-89.7fm-reshset_gimel" tvg-logo="radio-89.7fm-reshset_gimel.png", Reshet Gimel
-mms://s3ewm.castup.net/990310004-52.wmv
+#EXTINF:-1 tvg-id="radio-95fm-reshet_beit" tvg-name="radio-95fm-reshet_beit" tvg-logo="radio-95fm-reshet_beit.png", Reshet Beit
+http://svcfl.castup.net:1935/990310123-123.flv/_definst_/playlist.m3u8
 
-#EXTINF:-1 tvg-id="radio-88.8fm-reshset_dalet" tvg-name="radio-88.8fm-reshset_dalet" tvg-logo="radio-88.8fm-reshset_dalet.png", Reshet Dalet - Kol Israel in Arabic
-mms://sv5wm.castup.net/990310003-52.wmv
+#EXTINF:-1 tvg-id="radio-89.7fm-reshet_gimel" tvg-name="radio-89.7fm-reshet_gimel" tvg-logo="radio-89.7fm-reshet_gimel.png", Reshet Gimel
+http://s4ifl.castup.net:1935/990310134-123.flv/_definst_/playlist.m3u8
+
+#EXTINF:-1 tvg-id="radio-88.8fm-reshst_dalet" tvg-name="radio-88.8fm-reshet_dalet" tvg-logo="radio-88.8fm-reshst_dalet.png", Reshet Dalet - Kol Israel in Arabic
+http://s4ifl.castup.net:1935/990310135-123.flv/_definst_/playlist.m3u8
 
 #EXTINF:-1 tvg-id="radio-104.8fm-reshet_moreshet" tvg-name="radio-104.8fm-reshet_moreshet" tvg-logo="radio-104.8fm-reshet_moreshet.png", Reshet Moreshet
-mms://sv5wm.castup.net/990310002-52.wmv
+http://sbefl.castup.net:1935/990310137-123.flv/_definst_/playlist.m3u8
 
 #EXTINF:-1 tvg-id="radio-101.2fm-reka" tvg-name="radio-101.2fm-reka" tvg-logo="radio-101.2fm-reka.png", Reka - Kol Israel in Foreign Languages
-mms://s4awm.castup.net/990310005-52.wmv
+http://s4ifl.castup.net:1935/990310140-123.flv/_definst_/playlist.m3u8
