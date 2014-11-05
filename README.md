@@ -15,9 +15,9 @@ Logos are available [logos-il](https://github.com/kodi-il/logos-il), feel free t
 ###Installation instructions
 
 * Go to IPTVSimple configuration.
-* Enter the m3u link, for example: http://live.xbmc-il.com
-* Enter the logos base link: http://logos.xbmc-il.com
-* Save the changes, enable the addon and enable XBMC's PVR function.
+* Enter the m3u link, for example: http://live.kodi-il.tv
+* Enter the logos base link: http://logos.kodi-il.tv
+* Save the changes, enable the addon and enable Kodi's PVR function.
 
 #####Instructions for other players than Kodi
 * A player which supports m3u playlists is required.
@@ -29,16 +29,16 @@ Logos are available [logos-il](https://github.com/kodi-il/logos-il), feel free t
 Use one of these links to get the most updated revision of a playlist.
 
 #####TV channels and radio stations combined
-* Hebrew listing: http://live.xbmc-il.com
-* English listing: http://live.xbmc-il.com/en
+* Hebrew listing: http://live.kodi-il.tv
+* English listing: http://live.kodi-il.tv/en
 
 #####TV channels only
-* Hebrew listing: http://tv.xbmc-il.com  
-* English listing: http://tv.xbmc-il.com/en
+* Hebrew listing: http://tv.kodi-il.tv
+* English listing: http://tv.kodi-il.tv/en
 
 #####Radio stations only
-* Hebrew listing: http://fm.xbmc-il.com  
-* English listing: http://fm.xbmc-il.com/en
+* Hebrew listing: http://fm.kodi-il.tv
+* English listing: http://fm.kodi-il.tv/en
 
 ###Known issues and limitations
 
@@ -47,7 +47,7 @@ Use one of these links to get the most updated revision of a playlist.
 * Most of the Israeli TV channels are geo-restricted, meaning in order to play the streams one must have an Israeli IP address.
 
 ###Contact
-You are welcome to contact by opening an issue or if the nature of your inquiry is private then by mailing to xbmc.il.com@gmail.com.
+You are welcome to contact by opening an issue or if the nature of your inquiry is private then by mailing to kodi.il.tv@gmail.com.
 
 ####Read this before trying to contact:
 * **Do not ask for un-official streams, streams that are not offered freely and violate copyrights or links that are evading geo-restriction of official streams!**
