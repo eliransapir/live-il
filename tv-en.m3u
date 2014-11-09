@@ -32,7 +32,7 @@ http://keshethlslive-lh.akamaihd.net/i/c2n_1@195269/master.m3u8
 http://sl3cp.castup.net/990310143-123.flv/smil:990310143-123.smil/playlist.m3u8
 
 #EXTINF:-1  tvg-id="tv-ch99-kneset" tvg-name="tv-ch99-kneset" tvg-logo="tv-ch99-kneset.png", Kneset Channel
-mms://212.235.5.241:80/knessetlive
+mmsh://212.235.5.241/knessetlive?MSWMExt=.asf
 
 #EXTINF:-1  tvg-id="tv-i24news" tvg-name="tv-i24news" tvg-logo="tv-i24news.png", i24News
 http://bcoveliveios-i.akamaihd.net/hls/live/215102/master_english/398/master.m3u8
