@@ -3,7 +3,7 @@
 # if one of more of these are outdated please report @ https://github.com/kodi-il/live-il
 
 #EXTINF:-1 group-title="Radio-IL" radio="true" tvg-id="radio-88fm" tvg-name="radio-88fm" tvg-logo="radio-88fm.png", 88fm
-http://sbefl.castup.net:1935/990310138-123.flv/_definst_/playlist.m3u8
+rtmp://S0hfl.castup.net:1935/990310111-123.flv/
 
 #EXTINF:-1 tvg-id="radio-90fm-emtzah_haderech" tvg-name="radio-90fm-emtzah_haderech" tvg-logo="radio-90fm-emtzah_haderech.png", 90fm Ninety Radio
 http://90fm.mediacast.co.il:8920
